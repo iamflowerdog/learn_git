@@ -42,7 +42,7 @@
 
     `git commit -m :dog:`
     
-    `git commit -m :dog: test`
+    `git commit -m :dog: tes`
     
 
 ## Which Emoji to Use? ❓
