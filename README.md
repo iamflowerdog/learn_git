@@ -42,6 +42,8 @@
 
     `git commit -m :dog:`
     
+    `git commit -m :dog: test`
+    
 
 ## Which Emoji to Use? ❓
 
