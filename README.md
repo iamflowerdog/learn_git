@@ -1,6 +1,9 @@
 # learn_git
 分享git 在epark
 
+## git 操作指南
+
+[git简易使用指南](https://www.bootcss.com/p/git-guide/)
 ## 平时遇到的问题？
 
 #### 怎么修改 每次commit后的authorName?
@@ -45,7 +48,7 @@
     `git commit -m :dog: test`
     
 
-## 赵凯强教学  2019年6月13日
+#### 赵凯强教学  2019年6月13日
 
 ```
 use "git checkout -- <file>..." to discard changes in working directory 本地撤回
