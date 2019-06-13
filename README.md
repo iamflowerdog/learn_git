@@ -45,21 +45,25 @@
     `git commit -m :dog: test`
     
 
-## Which Emoji to Use? ❓
+## 赵凯强教学  2019年6月13日
 
-Commit Type | Emoji
-----------  | -----
-Initial Commit | [🎉 Party Popper](http://emojipedia.org/party-popper/)
-Version Tag | [🔖 Bookmark](http://emojipedia.org/bookmark/)
-New Feature | [✨ Sparkles](http://emojipedia.org/sparkles/)
-Bugfix | [🐛 Bug](http://emojipedia.org/bug/)
-Security Fix | [🔒 Lock](https://emojipedia.org/lock/)
-Metadata | [📇 Card Index](http://emojipedia.org/card-index/)
-Refactoring | [♻️ Black Universal Recycling Symbol](http://emojipedia.org/black-universal-recycling-symbol/)
-Documentation | [📚 Books](http://emojipedia.org/books/)
-Internationalization | [🌐 Globe With Meridians](http://emojipedia.org/globe-with-meridians/)
-Accessibility | [♿ Wheelchair](https://emojipedia.org/wheelchair-symbol/)
-Performance | [🐎 Horse](http://emojipedia.org/horse/)
-Cosmetic | [🎨 Artist Palette](http://emojipedia.org/artist-palette/)
-Tooling | [🔧 Wrench](http://emojipedia.org/wrench/)
-Tests | [🚨 Police Cars Revolving
+```
+use "git checkout -- <file>..." to discard changes in working directory 本地撤回
+use "git add <file>..." to update what will be committed 本地提交
+git add -u 提交本地所有的更改到工作台
+git status 查看本体工作状态 是否有改变
+use "git reset HEAD <file>..." to unstage 从工作台撤回到本地
+git commit -m "test" 从工作台提交到暂存区
+git push origin master  从本地仓库提交到远端仓库
+git branch -a 查看本地和远端的所有分支
+git checkout -b zkq 创建一个叫做“feature_x”的分支，并切换过去
+git push origin dev 把本地分支推送到远端
+git reflog 查看所有的commit
+git merge dev 本地dev合并到master ，先切到master低版本再合并
+
+ios 的Xcode IDE有个文件不需要被git 监控 可以这样
+git rm --cached <files>
+
+```
+
+
