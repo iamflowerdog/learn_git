@@ -54,7 +54,9 @@
  * git remote show origin 可以查看remote地址、远端分支和本地分支对应的关系
  * 使用 git remote prune origin 命令就删除了那些远端已经不存在的分支
 
-  
+#### 强制推送到远端
+* git push --force origin master
+
 #### 赵凯强教学  2019年6月13日
 
 ```
